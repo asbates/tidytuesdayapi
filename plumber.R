@@ -3,8 +3,12 @@ library(mongolite)
 library(jsonlite)
 
 #* @apiTitle Tidy Tuesday API
-#* @apiDescription This is an API to access data sets from the Tidy Tuesday project. You can find out more about Tidy Tuesday [here](https://github.com/rfordatascience/tidytuesday).
-#* @apiVersion 0.0.0.9000
+#* @apiDescription This is an API to access data sets from the Tidy Tuesday project. For more information about this API, see the [project GitHub](https://github.com/asbates/tidytuesdayapi). You can find out more about Tidy Tuesday on it's [home page](https://github.com/rfordatascience/tidytuesday).
+#* @apiVersion 0.0.1
+
+# serves the landing page
+#* @assets ./static /
+list()
 
 #* Get information about available data sets, like date and description.
 #* @param limit Limit the number of results to return.
