@@ -54,12 +54,12 @@ insert_metadata <- function(date,
 
 }
 
-insert_data("2021-01-05")
+insert_data("2021-06-15")
 
 insert_metadata(
-  date = "2021-01-05",
-  description = "Transit Cost Project",
-  url = "https://github.com/rfordatascience/tidytuesday/tree/master/data/2021/2021-01-05",
-  source_url = "https://transitcosts.com/",
-  article_url = "https://transitcosts.com/city/boston-case-the-story-of-the-green-line-extension/"
+  date = "2021-06-15",
+  description = "WEB Du Bois and Juneteenth",
+  url = "https://github.com/rfordatascience/tidytuesday/tree/master/data/2021/2021-06-15",
+  source_url = "https://public.tableau.com/app/profile/sekou.tyler/viz/DuBoisChalllenge2021TwitterMetrics/DuBoisChallenge2021TwitterActivity",
+  article_url = "https://theintercept.com/2020/06/19/how-to-mark-juneteenth-in-the-year-2020/"
 )
