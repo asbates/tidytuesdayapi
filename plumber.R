@@ -6,6 +6,12 @@ library(jsonlite)
 #* @apiDescription This is an API to access data sets from the Tidy Tuesday project. For more information about this API, see the [project GitHub](https://github.com/asbates/tidytuesdayapi). You can find out more about Tidy Tuesday on it's [home page](https://github.com/rfordatascience/tidytuesday).
 #* @apiVersion 0.0.1
 
+#* @filter cors
+cors <- function(res) {
+  res$setHeader("Access-Control-Allow-Origin", "*")
+  plumber::forward()
+}
+
 # serves the landing page
 #* @assets ./static /
 list()
@@ -43,6 +49,7 @@ function(req, res, limit = 10L) {
   available <- collection$find(
     query = '{}',
     fields = '{"_id": false}',
+    sort = '{"date": -1}',
     limit = limit
   )
   collection$disconnect()
