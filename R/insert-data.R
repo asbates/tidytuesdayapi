@@ -54,12 +54,12 @@ insert_metadata <- function(date,
 
 }
 
-insert_data("2021-06-15")
+insert_data("2021-06-22")
 
 insert_metadata(
-  date = "2021-06-15",
-  description = "WEB Du Bois and Juneteenth",
-  url = "https://github.com/rfordatascience/tidytuesday/tree/master/data/2021/2021-06-15",
-  source_url = "https://public.tableau.com/app/profile/sekou.tyler/viz/DuBoisChalllenge2021TwitterMetrics/DuBoisChallenge2021TwitterActivity",
-  article_url = "https://theintercept.com/2020/06/19/how-to-mark-juneteenth-in-the-year-2020/"
+  date = "2021-06-22",
+  description = "Public Park Access",
+  url = "https://github.com/rfordatascience/tidytuesday/tree/master/data/2021/2021-06-22",
+  source_url = "https://www.tpl.org/parks-and-an-equitable-recovery-parkscore-report",
+  article_url = "https://www.bloomberg.com/news/articles/2021-05-27/the-cities-where-people-of-color-can-walk-to-a-park"
 )
