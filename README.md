@@ -1,5 +1,9 @@
 # tidytuesdayapi
 
+**NOTE** 
+This project is no longer deployed.
+There wasn't much usage so I figured I'd save the $5/month.
+
 This is a web API for the 
  [Tidy Tuesday](https://github.com/rfordatascience/tidytuesday) project.
 Tidy Tuesday is a "weekly data project aimed at the R ecosystem."
